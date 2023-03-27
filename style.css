@@ -20,14 +20,14 @@ main {
   max-width: 400px;
 }
 
-.testi-one h2,
-.testi-two h2,
-.testi-five h2 {
+.testi-one h3,
+.testi-two h3,
+.testi-five h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: var(--white);
 }
-.testi-three h2,
-.testi-four h2 {
+.testi-three h3,
+.testi-four h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: var(--vdarkgrayblue);
 }
@@ -62,9 +62,9 @@ main {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
-.testi-one .testi-head h3,
-.testi-two .testi-head h3,
-.testi-five .testi-head h3 {
+.testi-one .testi-head h2,
+.testi-two .testi-head h2,
+.testi-five .testi-head h2 {
   font-size: 15px;
   color: hsla(0, 0%, 100%, 50%);
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -79,8 +79,8 @@ main {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
-.testi-three .testi-head h3,
-.testi-four .testi-head h3 {
+.testi-three .testi-head h2,
+.testi-four .testi-head h2 {
   font-size: 15px;
   color: hsla(217, 19%, 35%, 50%);
   font-family: "Barlow Semi Condensed", sans-serif;
