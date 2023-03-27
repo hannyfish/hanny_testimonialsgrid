@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+:root {
+  --modviolet: hsl(263, 55%, 52%);
+  --vdarkgrayblue: hsl(217, 19%, 35%);
+  --vdarkblackblue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --ligray: hsl(0, 0%, 81%);
+  --ligrayblue: hsl(210, 46%, 95%);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--ligrayblue);
+}
+
+/*Mobile - 375px*/
+main {
+  min-height: 100vh;
+  max-width: 400px;
+}
+
+.testi-one h2,
+.testi-two h2,
+.testi-five h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--white);
+}
+.testi-three h2,
+.testi-four h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--vdarkgrayblue);
+}
+
+.testi-one,
+.testi-two,
+.testi-five section {
+  color: hsla(0, 0%, 100%, 70%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 15px;
+}
+.testi-three,
+.testi-four section {
+  color: hsla(217, 19%, 35%, 70%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 15px;
+}
+
+.testi-head {
+  width: 130px;
+  height: 50px;
+  position: relative;
+  left: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.testi-one .testi-head h1,
+.testi-two .testi-head h1,
+.testi-five .testi-head h1 {
+  font-size: 15px;
+  color: var(--white);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+.testi-one .testi-head h3,
+.testi-two .testi-head h3,
+.testi-five .testi-head h3 {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 50%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  margin-top: -8px;
+}
+
+.testi-three .testi-head h1,
+.testi-four .testi-head h1 {
+  font-size: 15px;
+  color: var(--vdarkgrayblue);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+.testi-three .testi-head h3,
+.testi-four .testi-head h3 {
+  font-size: 15px;
+  color: hsla(217, 19%, 35%, 50%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  margin-top: -8px;
+}
+
+.testi-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.testi-one .testi-img {
+  border: 3px solid hsla(263, 55%, 52%, 80%);
+  background-image: url("https://github.com/hannyfish/hanny_testimonialsgrid/blob/main/image-daniel.jpg?raw=true");
+}
+.testi-two .testi-img {
+  background-image: url("https://github.com/hannyfish/hanny_testimonialsgrid/blob/main/image-jonathan.jpg?raw=true");
+}
+.testi-three .testi-img {
+  background-image: url("https://github.com/hannyfish/hanny_testimonialsgrid/blob/main/image-kira.jpg?raw=true");
+}
+.testi-four .testi-img {
+  background-image: url("https://github.com/hannyfish/hanny_testimonialsgrid/blob/main/image-jeanette.jpg?raw=true");
+}
+.testi-five .testi-img {
+  border: 3px solid hsla(263, 55%, 52%, 80%);
+  background-image: url("https://github.com/hannyfish/hanny_testimonialsgrid/blob/main/image-patrick.jpg?raw=true");
+}
+
+.testi-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: max-content max-content max-content max-content max-content;
+  gap: 5% 0;
+  width: 90%;
+}
+
+.testi-one {
+  background-color: var(--modviolet);
+  background-image: url(https://raw.githubusercontent.com/hannyfish/hanny_testimonialsgrid/0ad3a0e3b7c6867e91797921974b1236727f4921/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: right 3vw top 5vh;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.testi-two {
+  background: var(--vdarkgrayblue);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.testi-three {
+  background: var(--white);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.testi-four {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.testi-five {
+  background: var(--vdarkblackblue);
+  padding: 20px;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Desktop - 1440px*/
+@media screen and (min-width: 900px) {
+  main {
+    min-width: 950px;
+    min-height: 50vh;
+    margin: 0 auto;
+  }
+
+  .testi-container {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 45% 45%;
+    gap: 10% 7%;
+    grid-template-areas:
+      "testi-one testi-two testi-three"
+      "testi-four testi-five";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .testi-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 15px;
+    grid-row-start: 1;
+  }
+
+  .testi-two {
+    grid-column-start: 3;
+  }
+
+  .testi-three {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+  }
+
+  .testi-four {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  .testi-five {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
